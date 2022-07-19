@@ -1,0 +1,39 @@
+.watch-container {
+  padding: 6rem 6rem 0 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  justify-content: center;
+}
+
+.top-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+h1 {
+  color: #fff;
+  margin: 0;
+}
+a {
+  color: #fff;
+  margin: 0;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.bottom-container {
+  margin-top: 13rem;
+}
+@media screen and (max-width: 767px) {
+  .home-container {
+    padding: 6em 0 4em 0;
+  }
+  .top-container {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  h1 {
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,19 @@
+.layout {
+  width: 60%;
+  min-height: 100vh;
+  margin: 0 auto;
+  background-image: url('../../assets/background.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #121212;
+  background-size: 100% 19rem;
+  border-radius: 12px;
+  box-shadow: 5px 6px 7px 0px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 5px 6px 7px 0px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 5px 6px 7px 0px rgba(0, 0, 0, 0.6);
+}
+@media screen and (max-width: 767px) {
+  .layout {
+    width: 100%;
+  }
+}
